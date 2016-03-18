@@ -1,0 +1,16 @@
+class MyClass {
+	float var;
+	int arr[4];
+	
+	float findMax() {
+		var = 100.0;
+		return (var);
+	};
+	
+	float findMin() {
+		var = 0.0;
+		return (var);
+	};
+};
+
+program {};

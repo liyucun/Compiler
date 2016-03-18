@@ -1,0 +1,36 @@
+program { } ; 
+
+class id { }; program { } ;
+
+class id { }; program { } ; id id ( ) { } ;
+
+class id { }; program { } ; id id ( id id , id  id ) { } ;
+
+class id { id id ;  }; program { } ; id id ( id id , id  id ) { } ;
+
+class id { id id ;  }; program { id id ; } ; id id ( id id , id  id ) { } ;
+
+class id { id id [ int ] ;  }; program { id id ; } ; id id ( id id , id  id ) { } ;
+
+class id { id id [ int ][ int ] ;  }; program { id id ; } ; id id ( id id, id  id ) { } ;
+
+class id { id id [ int ][ int ] ;  id id (id id , id id ){ id id ; } }; program { id id ; } ; id id ( id id , id  id ) { } ;
+
+class id { id id [ int ][ int ] ;  id id (id id , id id ){ id id ; } }; program { id id ; } ; id id ( id id [ int ] [ int ] , id  id ) { } ;
+
+class id { id id [ int ][ int ] ;  id id (id id , id id ){ id id ; } }; program { id id ; id = id ; } ; id id ( id id [ int ] [ int ] , id  id ) { } ;
+
+class id { id id [ int ][ int ] ;  id id (id id , id id ){ id id ; } }; program { id id ; id = id ; id . id [ id ] [ id ] = id . id + id * id > id . id ; } ; id id ( id id [ int ] [ int ] , id  id ) { } ;
+
+class id { id id [ int ][ int ] ;  id id (id id , id id ){ id id ; }  id id ; }; program { id id ; id = id ; id . id [ id ] [ id ] = id . id + id * id > id . id ; } ; id id ( id id [ int ] [ int ] , id  id ) { } ;
+
+class id { } ; program { if ( id > id ) then { integer id ; id  = num ; } else { id = num ; } ; } ;
+
+class id { } ; program { integer id ;  id = id ; id id ;  } ;
+
+class id { } ; program { integer id ;  id = id ; id id ;  id [ id ] = id . id [ id . id [ id ] ] . id ( id . id [ id ] )  ; } ;
+
+program { read ( id . id [ id . id [ id ] ] ) ; } ;
+
+program { write ( id . id [ id . id [ id ] ]  '=='  id . id [ id . id [ id ] ] ) ; } ; 
+ 

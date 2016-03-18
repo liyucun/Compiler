@@ -1,0 +1,23 @@
+program {
+	
+	int maxValue;
+	int minValue;
+
+	for(int t = 0; t<=100 ; t = t + 1) {
+		get(sample[t]);
+	};
+
+	maxValue = utility.findMax(sample);
+	minValue = utility.findMin(sample);
+	
+	put(maxValue);
+	put(minValue);
+};
+
+float myFunction() {
+
+	float value;
+	value = 100 * (100 + 3.0 / 7.0006);
+	value = 1.08 + ((2.02 * 2.02) - 3.0) + 8.01 ;
+	return (value);
+};

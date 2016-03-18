@@ -1,0 +1,8 @@
+E F T E'{1} T'{2}
+id + * ( ) EPSILON_VALUE $
+E
+E->T E'{1}
+F->( E )|id
+T->( E ) T'{2}|id T'{2}
+E'{1}->+ T E'{1}|EPSILON_VALUE
+T'{2}->* F T'{2}|EPSILON_VALUE

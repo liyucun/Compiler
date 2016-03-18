@@ -1,0 +1,15 @@
+class MyClass [*+{
+	float var{;
+	
+	float findMax() {
+		var = 100.0
+		return var;
+	};[]*
+	
+	float findMin() {
+		var = 0.0
+		return var;
+	};
+};
+
+program {};
